@@ -526,8 +526,11 @@ footer .credit a {
     padding-top: 0;
   }
 
-  .modal-content {
-    flex-wrap: wrap;
+  .navbar .navbar-nav a {
+    color: var(--primary);
+    display: flex;
+    font-size: 2.3rem;
+    margin: 0 1rem;
   }
 }
 
@@ -536,4 +539,16 @@ footer .credit a {
   html {
     font-size: 55%;
   }
+
+  .navbar .navbar-nav a {
+    color: var(--primary);
+    display: flex;
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+  .navbar .navbar-nav a:hover {
+    color: black;
+  }
+  
+  
 }
