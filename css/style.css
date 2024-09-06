@@ -1,6 +1,6 @@
 :root {
-  --primary: #b6895b;
-  --bg: #010101;
+  --primary: rgb(11, 17, 107);
+  --bg: #ffffff;
 }
 
 * {
@@ -197,7 +197,7 @@ body {
 .menu h2 span,
 .products h2 span,
 .contact h2 span {
-  color: var(--primary);
+  color: var(#eaeaea);
 }
 
 .about .row {
@@ -286,6 +286,7 @@ body {
   text-align: center;
   border: 1px solid #666;
   padding: 2rem;
+  background-color: #eaeaea;
 }
 
 .products .product-icons {
@@ -321,7 +322,8 @@ body {
 }
 
 .products .product-content h3 {
-  font-size: 2rem;
+  font-size: 2.2rem;
+  color: rgb(11, 17, 107);
 }
 
 .products .product-stars {
